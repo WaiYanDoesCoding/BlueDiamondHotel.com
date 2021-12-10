@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	div.a {text-align: center;}
+		h2{ text-align: center; }
+		p{ text-align: center; 
+			font-size: 25px;}
+	</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="home.html" class="w3-bar-item w3-button">home</a>
+  <a href="about.html" class="w3-bar-item w3-button">About</a>
+  <a href="event.html" class="w3-bar-item w3-button">Events</a>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="w3-bar-item w3-button">Don't ask me what this is</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">︙</button>
+  <div class="w3-container">
+    <h1 style="font-family: Garamond;">Events</h1>
+  </div>
+</div>
+
+<div class="a">
+<body style="background-color: rgb(101, 120, 149);">
+<h2 style="font-family:garamond">Birthday Party</h2>
+<div style="margin: auto;"><img src="birthdayparty.png" alt="image" width="700px" height="430px"></div>
+
+<h2 style="font-family:garamond">Wedding</h2>
+<div style="margin: auto;"><img src="wedding.png" alt="image" width="700px" height="430px"></div>
+
+<h2 style="font-family:garamond">Seasonal Events</h2>
+<div style="margin: auto;"><img src="seasonalevent.jpg" alt="image" width="700px" height="500px"></div>
+<p style="font-family:times new roman">When the event comes, you will get 30% off. For the food and drinks, you will get buffet for free. </p>
+
+	<h2 style="font-family: georgia">(There are also traditional events in our hotel as well such as, Christmas events, Halloween events, Thanksgiving events and many more)</h2>
+
+
+<h2 style="font-family:garamond">Decoration</h2>
+<div style="margin: auto;"><img src="decoration.png" alt="image" width="700px" height="430px"></div>
+<p style="font-family:times new roman">We will design and decorate anything to your liking.</p>
+
+<h2 style="font-family:garamond">Music and Dance</h2>
+<div style="margin: auto;"><img src="musicanddance.png" alt="image" width="700px" height="430px"></div>
+<p style="font-family:times new roman">We will play any type of music you want us to, you can even have fun on the stage.</p>
+
+
+<script type="text/javascript">
+	
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
